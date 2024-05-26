@@ -1,1 +1,12 @@
-{ "version": "2.1.7", "changelog": null }
+{
+   "version":"2.1.8",
+   "changelog":[
+      "Integrated QBox",
+      "Implemented client-side open/close exports",
+      "Fixed cursor issue upon player death",
+      "Enabled automatic inventory selection",
+      "Resolved the 'year' bug with various date of birth formats",
+      "Added support for NPWD phone on default QBox",
+      "Fixed bug preventing money from being added to society funds"
+   ]
+}
