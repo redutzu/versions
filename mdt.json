@@ -1,7 +1,7 @@
 {
    "version": "2.1.9",
-   "changelog":[
-      "Fixed housing scripts to work correctly on frameworks beyond QBcore"",
+   "changelog": [
+      "Fixed housing scripts to work correctly on frameworks beyond QBcore",
       "Added 'Config.Settings.MaxAutoCompleteSelected' to allow increasing or decreasing the number of items selectable in an autocomplete input",
       "Fixed all cursor errors after death, including those with wasabi_ambulance and other scripts",
       "Collaborated with the Bagus Code Team and created an export for receiving licenses, ensuring bcs_licensemanager works perfectly"
