@@ -1,12 +1,9 @@
 {
-   "version":"2.1.8",
+   "version": "2.1.9",
    "changelog":[
-      "Integrated QBox",
-      "Implemented client-side open/close exports",
-      "Fixed cursor issue upon player death",
-      "Enabled automatic inventory selection",
-      "Resolved the 'year' bug with various date of birth formats",
-      "Added support for NPWD phone on default QBox",
-      "Fixed bug preventing money from being added to society funds"
+      "Fixed housing scripts to work correctly on frameworks beyond QBcore"",
+      "Added 'Config.Settings.MaxAutoCompleteSelected' to allow increasing or decreasing the number of items selectable in an autocomplete input",
+      "Fixed all cursor errors after death, including those with wasabi_ambulance and other scripts",
+      "Collaborated with the Bagus Code Team and created an export for receiving licenses, ensuring bcs_licensemanager works perfectly"
    ]
 }
