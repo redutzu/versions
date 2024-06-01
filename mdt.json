@@ -1,9 +1,12 @@
 {
-   "version": "2.1.9",
+   "version": "2.2.0",
    "changelog": [
-      "Fixed housing scripts to work correctly on frameworks beyond QBcore",
-      "Added 'Config.Settings.MaxAutoCompleteSelected' to allow increasing or decreasing the number of items selectable in an autocomplete input",
-      "Fixed all cursor errors after death, including those with wasabi_ambulance and other scripts",
-      "Collaborated with the Bagus Code Team and created an export for receiving licenses, ensuring bcs_licensemanager works perfectly"
+       "Added redutzu-mdt-prop to the dependencies",
+       "Changed all SQL 'DATE' formats to varchar(64)",
+       "Fixed a bug with coordinates in quasar-housing",
+       "Fixed a bug in ps-dispatch related to alert time",
+       "Added the ability to change the prop and animation in the config file, and updated the animation to be more realistic",
+       "Fixed a bug where MDT wouldn't focus, allowing the player to fight with MDT open (ensure the prop resource is started)",
+       "Updated bodycam code to allow viewing from a greater distance"
    ]
 }
