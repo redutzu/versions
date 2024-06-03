@@ -1,12 +1,9 @@
 {
-   "version": "2.2.0",
+   "version": "2.2.1",
    "changelog": [
-       "Added redutzu-mdt-prop to the dependencies",
-       "Changed all SQL 'DATE' formats to varchar(64)",
-       "Fixed a bug with coordinates in quasar-housing",
-       "Fixed a bug in ps-dispatch related to alert time",
-       "Added the ability to change the prop and animation in the config file, and updated the animation to be more realistic",
-       "Fixed a bug where MDT wouldn't focus, allowing the player to fight with MDT open (ensure the prop resource is started)",
-       "Updated bodycam code to allow viewing from a greater distance"
+      "Fixed a bug with qs-housing integration (for v3 or newer)",
+      "Added a new option in the config named Config.UseSociety to choose whether to add money to society when an incident is created",
+      "Added customizable garages (server/custom/garage), configurable via Config.Garage in the config file",
+      "Fixed a bug where unowned vehicles displayed '{owner-name}'"
    ]
 }
