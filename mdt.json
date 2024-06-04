@@ -1,9 +1,11 @@
 {
-   "version": "2.2.1",
+   "version": "2.2.2",
    "changelog": [
-      "Fixed a bug with qs-housing integration (for v3 or newer)",
-      "Added a new option in the config named Config.UseSociety to choose whether to add money to society when an incident is created",
-      "Added customizable garages (server/custom/garage), configurable via Config.Garage in the config file",
-      "Fixed a bug where unowned vehicles displayed '{owner-name}'"
+      "Dispatch blip message is now functioning correctly",
+      "Introduced Config.RespondControl to allow cops to take the last alert",
+      "Added Turkish locale",
+      "Implemented fingerprint for citizen filtering (QBCore only)",
+      "Provided options to modify the players table, identifier column, and player name and job in your server/custom/framework file",
+      "Fixed issue with dispatch notification only appearing for Player Dead events"
    ]
 }
