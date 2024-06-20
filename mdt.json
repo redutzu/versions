@@ -1,15 +1,13 @@
 {
-   "version": "2.2.3",
+   "version": "2.2.4",
    "changelog": [
-      "Added 'none' option for Config.Housing to completely disable the housing system",
-      "Added a loading state when creating an incident (for users of rcore_prison, it will wait up to 5 seconds for outfit selection before creating the incident)",
-      "Made the MDT fully responsive at 720p",
-      "Converted dispatch time to UTC on the server for more accurate time display",
-      "Fixed issue where pressing enter would close the MDT",
-      "Fixed a bug where the same officers were shown for each whitelisted job",
-      "Fixed the 'HandleSocietyFine' function which was not working",
-      "Fixed an issue with qb-housing and warrants causing MDT crashes if no house was attached",
-      "Fixed the item for ox_inventory (copy the updated data from custom/inventory/ox_inventory.lua)",
-      "Fixed an error where saving a record without any changes caused a console error"
+      "Added support for ps-inventory",
+      "Added support for qs-inventory weapons (ESX only)",
+      "'Wanted' tag to citizen profiles with active warrants or BOLOs",
+      "Only active warrants and BOLOs are now visible on citizen profiles",
+      "Changed the name of the prop",
+      "Fixed incidents/announcements descriptions not saving after closing the MDT",
+      "Fixed issue causing MDT to crash in the management tab due to activity",
+      "Fixed bug causing MDT to crash when creating a warrant without a house in the housing scripts"
    ]
 }
