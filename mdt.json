@@ -1,13 +1,19 @@
 {
-   "version": "2.2.4",
+   "version": "2.2.5",
    "changelog": [
-      "Added support for ps-inventory",
-      "Added support for qs-inventory weapons (ESX only)",
-      "'Wanted' tag to citizen profiles with active warrants or BOLOs",
-      "Only active warrants and BOLOs are now visible on citizen profiles",
-      "Changed the name of the prop",
-      "Fixed incidents/announcements descriptions not saving after closing the MDT",
-      "Fixed issue causing MDT to crash in the management tab due to activity",
-      "Fixed bug causing MDT to crash when creating a warrant without a house in the housing scripts"
+      "Added an option to ignore alerts triggered by officers",
+      "Added an option to cancel vehicle selection during registration",
+      "Added Spanish and Italian locales",
+      "Added a section to send custom fines/charges to a user",
+      "Three new events triggered when a record is created, updated, or deleted",
+      "Added support for uniq_evidence",
+      "Added support for drc_mugshot",
+      "Fixed a bug where the tablet was stuck in hand",
+      "Fixed a birthdate format issue when registering a citizen, showing the previous day on their page",
+      "Incident creation no longer requires suspects and victims",
+      "Dispatch map with added officers and updated icons",
+      "Bodycam functionality now works through an item",
+      "Vehicle model searching by adding an input field",
+      "Ability to edit charges in an incident, with a new 'Automatically send charges' option when creating a new incident"     
    ]
 }
