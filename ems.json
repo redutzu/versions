@@ -1,10 +1,11 @@
 {
-   "version": "2.1.3",
+   "version": "2.1.4",
    "changelog": [
-      "Added a new prop option (rotation)",
-      "Updated the prop to an unescrowed version for both redutzu-mdt-prop and redutzu-ems-prop (should fix the punching issue)",
-      "Added German, Dutch, and Estonian locales",
-      "Added a new item image in the resource folder",
-      "Fixed a bug with activity on the management page"
+      "Made the EMS system fully standalone and independent from any framework",
+      "Added Italian locales",
+      "Fixed a bug causing event spamming on duty change",
+      "Fixed the SetDuty export functionality",
+      "Updated missing locales, including citizen job and insurance expiring",
+      "Design elements changed from blue to red"
    ]
 }
