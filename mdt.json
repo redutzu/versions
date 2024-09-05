@@ -1,23 +1,14 @@
 {
-   "version": "2.2.6",
+   "version": "2.2.7",
    "changelog": [
-      "Added units on the officers page",
-      "Made the MDT fully standalone and independent from any framework",
-      "New option in the config to change the link for the dispatch map (customize appearance)",
-      "New option to change the position of the bodycam UI (left/right)",
-      "Support for wk_wars2x, with editable code in server/custom/radars/wk_wars2x.lua",
-      "New snippet for the bodycam item in server/custom/bodycam/default.lua",
-      "Support for ox_inventory item evidences",
-      "Fixed an issue with the bodycam UI disappearing when viewing a camera/bodycam",
-      "Fixed a bug preventing vehicle registration due to the model issue",
-      "Bodycam item issue on ox_inventory",
-      "Fixed the integration for nolag_properties",
-      "Fixed the integration for quasar-housing on ESX",
-      "Fixed an issue where citizens wouldn't load due to a nonexistent job",
-      "Fixed an issue with the bodycam where the officer’s bodycam couldn't be viewed even if enabled",
-      "Improved the performance for cameras",
-      "Bodycam is now translatable in shared/locales.lua",
-      "Ability to add more societies for each whitelisted job",
-      "Updated the default dispatch to prevent auto-deleting and errors"
+      "Created a website for incident/announcement template customization: https://template.redutzu.com/",
+      "Added a feature to change unit names",
+      "Added locales for units and NO_CALLSIGN",
+      "Added the Citizen ID on the citizen page (QB/QBOX only)",
+      "Fixed calls not displaying on the dispatch map",
+      "Fixed blips not appearing when an alert is created",
+      "Rewrote the dispatch code to prevent crashes",
+      "Moved GetStreetNameFromCoords to client/custom/functions/street.lua",
+      "Updated the dispatch UI, making it easier to delete/take alerts, and now shows which unit/officer took the alert"
    ]
 }
