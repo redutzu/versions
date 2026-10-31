@@ -1,14 +1,6 @@
 {
-   "version": "2.2.7",
+   "version": "3.0.0",
    "changelog": [
-      "Created a website for incident/announcement template customization: https://template.redutzu.com/",
-      "Added a feature to change unit names",
-      "Added locales for units and NO_CALLSIGN",
-      "Added the Citizen ID on the citizen page (QB/QBOX only)",
-      "Fixed calls not displaying on the dispatch map",
-      "Fixed blips not appearing when an alert is created",
-      "Rewrote the dispatch code to prevent crashes",
-      "Moved GetStreetNameFromCoords to client/custom/functions/street.lua",
-      "Updated the dispatch UI, making it easier to delete/take alerts, and now shows which unit/officer took the alert"
+      "Full updated version"
    ]
 }
