@@ -1,6 +1,16 @@
 {
-   "version": "3.0.0",
+   "version": "3.0.1",
    "changelog": [
-      "Full updated version"
+      "Added qs-housing and high-phone integrations, updated gksphone to v2",
+      "Radio roster shows character name, callsign, unit and live speaking state",
+      "Fingerprint prints and MDT vehicle images on profiles and records",
+      "Evidence markers and police tape can use up inventory items",
+      "Dispatch alert jobs can target resources outside the MDT",
+      "ESX support before 1.8.5 and manual installs without the txAdmin recipe",
+      "Fixed off-duty officers not triggering automatic alerts",
+      "Fixed edited announcements not saving",
+      "Fixed items breaking when the inventory starts after the MDT",
+      "Config changes: ExcludeJobs replaced by OnDutyExempt",
+      "Many more fixes, see the full changelog",
    ]
 }
